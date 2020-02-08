@@ -1,0 +1,162 @@
+h3{
+  /* margin-left: 20%; */
+  color: darkcyan;
+}
+#register, #login {
+    width: 250px;
+    border: 1px solid #d6d7da;
+    padding: 0px 15px 15px 15px;
+    border-radius: 10px;
+    font-family: arial;
+    line-height: 16px;
+    color: #333333;
+    font-size: 14px;
+    background: #ffffff;
+    margin: 100px auto;
+  }
+
+  form label, form input {
+    display: block;
+    /* margin-bottom: 10px; */
+    width: 60%;
+    border-radius: 15px;
+    padding:5px;
+  }
+
+  form input {
+    padding: 10px;
+    border: solid 1px #BDC7D8;
+
+  }
+
+  .button {
+    background-color: rgb(27, 98, 107);
+    border-color: #bfcc94;
+    border-radius: 40px;
+    font-weight: bold;
+    padding: 12px 15px;
+    color: #ffffff;
+    width: 67%;
+    margin-top: 15px;
+  }
+
+  .errorMsg {
+    color: #cc0000;
+    margin-bottom: 12px;
+  }
+
+  .sucessMsg {
+    color: #6B8E23;
+    margin-bottom: 10px;
+  }
+  p, div {
+    font-family: Lato;
+  }
+  .wrapper {
+    height: 97vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4A4E69;
+  }
+
+  .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    max-width: 80%;
+    min-width: 100px;
+    min-height: 400px;
+    padding: 20px 40px;
+    border-radius: 6px;
+    box-shadow: 0px 8px 36px #222;
+    background-color: #fefefe;
+  }
+
+  .form-wrapper > h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+    margin-top: 0.25em;
+    color: #222;
+  }
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+  }
+
+  .info {
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  label {
+    margin-bottom: 0.5em;
+    color: #444;
+    font-weight: lighter;
+    font-size: medium;
+  }
+
+  input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #d6d1d5;
+    border-style: groove;
+  }
+
+  input::placeholder {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #bbb;
+  }
+
+  button {
+    min-width: 100%;
+    cursor: pointer;
+    margin-right: 0.25em;
+    margin-top: 0.5em;
+    padding:    0.938em;
+    border: none;
+    border-radius: 4px;
+    background-color: #22223B;
+    color: #fefefe;
+  }
+  button:hover {
+    background-color: #4A4E69;
+    color: #fefefe;
+  }
+
+  input.error {
+    border: 1px solid #EADAE4;
+  }
+
+  .error {
+    color:#db2269;
+    font-size: 0.625em;
+    display: relative;
+  }
+  .email,
+  .password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  .email,
+  .password {
+    width: 100%;
+  }
+
+  .submit {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
